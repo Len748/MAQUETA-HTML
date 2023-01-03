@@ -1,0 +1,60 @@
+
+.index{
+    background-color: #e7b0f5;
+    background-size: 100%;
+    background-repeat: repeat-y;
+    min-height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section.dashboard, section.Panel{
+    margin-top: 10rem;
+    background-color:aliceblue
+    
+}
+
+
+.carousel-inner{
+    max-height: 75rem;
+}
+
+.navbar.navbar-expand-lg.bg-secondary{
+    background: rgb(238,174,202);
+    background: -moz-linear-gradient(40deg, rgba(238,174,202,1) 0%, rgba(152,148,233,1) 100%);
+    background: -webkit-linear-gradient(40deg, rgba(238,174,202,1) 0%, rgba(152,148,233,1) 100%);
+    background: linear-gradient(40deg, rgba(238,174,202,1) 0%, rgba(152,148,233,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#9894e9",GradientType=1);
+}
+i.fa-brands.fa-instagram.fa-2xl:hover{
+color: aquamarine;
+}
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+color: aquamarine;
+}
+i.fa-brands.fa-twitter.fa-2xl:hover{
+color: aquamarine;
+}
+.fa-solid.fa-user-lock.fa-2xl:hover{
+    color: aquamarine;
+    }
+i.fa-solid.fa-user.fa-2xl:hover{
+        color: aquamarine;
+        }
+    
+.list-group{
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: none;
+}
+
+section.about{
+    margin-top: 3rem;
+}
+section.perfil{
+    top: 7.5rem !important;
+}
+
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+
+}
