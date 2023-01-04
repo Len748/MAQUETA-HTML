@@ -1,3 +1,6 @@
+.navbar {
+    --bs-navbar-padding-x: -15;
+}
 
 .index{
     background-color: #e7b0f5;
