@@ -3,7 +3,11 @@
 }
 
 .index{
-    background-color: #e7b0f5;
+    background-color: rgb(245,174,223);
+    background: -moz-radial-gradient(circle, rgba(245,174,223,1) 0%, rgba(154,129,191,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(245,174,223,1) 0%, rgba(154,129,191,1) 100%);
+    background: radial-gradient(circle, rgba(245,174,223,1) 0%, rgba(154,129,191,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5aedf",endColorstr="#9a81bf",GradientType=1);
     background-size: 100%;
     background-repeat: repeat-y;
     min-height: 100vh;
@@ -12,7 +16,7 @@
 
 section.dashboard, section.Panel{
     margin-top: 10rem;
-    background-color:aliceblue
+    background-color:rgb(106, 208, 221)
     
 }
 
@@ -21,8 +25,9 @@ section.dashboard, section.Panel{
     margin-right: auto;
 }
 
-.carousel-inner{
-    max-height: 75rem;
+.carousel-inner img{
+    width: auto  ;
+    height: auto ;
 }
 
 .navbar.navbar-expand-lg.bg-secondary{
@@ -41,13 +46,16 @@ color: aquamarine;
 i.fa-brands.fa-twitter.fa-2xl:hover{
 color: aquamarine;
 }
+i.fa-brands.fa-github.fa-2xl:hover{
+    color: aquamarine;
+    }
 .fa-solid.fa-user-lock.fa-2xl:hover{
     color: aquamarine;
     }
-i.fa-solid.fa-user.fa-2xl:hover{
+.fa-solid.fa-user.fa-2xl:hover{
         color: aquamarine;
         }
-    
+
 .list-group{
     --bs-list-group-bg: transparent;
     --bs-list-group-border-color: none;
@@ -59,6 +67,7 @@ section.about{
 section.perfil{
     top: 7.5rem !important;
 }
+
 
 footer p{
     color: #f3f3f3;
