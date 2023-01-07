@@ -16,6 +16,10 @@ section.dashboard, section.Panel{
     
 }
 
+.container{
+    margin-left: 5rem;
+    margin-right: auto;
+}
 
 .carousel-inner{
     max-height: 75rem;
