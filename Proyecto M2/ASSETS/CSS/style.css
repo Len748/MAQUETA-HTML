@@ -1,7 +1,9 @@
+/* barra navbar*/
 .navbar {
     --bs-navbar-padding-x: -15;
 }
 
+/* background index*/
 .index{
     background-color: rgb(245,174,223);
     background: -moz-radial-gradient(circle, rgba(245,174,223,1) 0%, rgba(154,129,191,1) 100%);
@@ -14,22 +16,27 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-section.dashboard, section.Panel{
+
+/* background dashboard*/
+section.dashboard, section.Panel, .dashboard{
     margin-top: 10rem;
-    background-color:rgb(106, 208, 221)
+    background-color:rgb(162, 175, 243)
     
 }
 
+/* foto de perfil y nombre*/
 .container{
     margin-left: 5rem;
     margin-right: auto;
 }
 
+/* carrusel de fotos*/
 .carousel-inner img{
     width: auto  ;
     height: auto ;
 }
 
+/* degradé navbar*/
 .navbar.navbar-expand-lg.bg-secondary{
     background: rgb(238,174,202);
     background: -moz-linear-gradient(40deg, rgba(238,174,202,1) 0%, rgba(152,148,233,1) 100%);
@@ -37,6 +44,25 @@ section.dashboard, section.Panel{
     background: linear-gradient(40deg, rgba(238,174,202,1) 0%, rgba(152,148,233,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#9894e9",GradientType=1);
 }
+
+/*boton home dashboard*/
+.nav-pills{
+    
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: #b946d6;
+    --bs-nav-link-color: black;
+}
+
+/* boton guardar dashboard*/
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg:  #b946d6;
+    --bs-btn-border-color: none;
+    --bs-btn-hover-bg: #b50bd7;
+    --bs-btn-active-bg: #9589dd;
+}
+
+/* iconos*/
 i.fa-brands.fa-instagram.fa-2xl:hover{
 color: aquamarine;
 }
@@ -58,17 +84,22 @@ i.fa-brands.fa-github.fa-2xl:hover{
 
 .list-group{
     --bs-list-group-bg: transparent;
-    --bs-list-group-border-color: none;
+    --bs-list-group-border-color:none;
+}
+/* iconos*/
+
+/* padding entre foto de perfil y carrusel*/
+section.about{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
-section.about{
-    margin-top: 3rem;
-}
 section.perfil{
     top: 7.5rem !important;
 }
 
 
+/* pie de pagina*/
 footer p{
     color: #f3f3f3;
     text-align: center;
