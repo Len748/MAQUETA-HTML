@@ -5,10 +5,10 @@
 
 /* background index*/
 .index{
-    background-color: rgb(245,174,223);
-    background: -moz-radial-gradient(circle, rgba(245,174,223,1) 0%, rgba(154,129,191,1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(245,174,223,1) 0%, rgba(154,129,191,1) 100%);
-    background: radial-gradient(circle, rgba(245,174,223,1) 0%, rgba(154,129,191,1) 100%);
+    background-color: #f5aedf;
+    background: -moz-radial-gradient(circle, #f5aedf 0%, #9a81bf 100%);
+    background: -webkit-radial-gradient(circle, #f5aedf 0%, #9a81bf 100%);
+    background: radial-gradient(circle, #f5aedf 0%, #9a81bf 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5aedf",endColorstr="#9a81bf",GradientType=1);
     background-size: 100%;
     background-repeat: repeat-y;
@@ -20,7 +20,7 @@
 /* background dashboard*/
 section.dashboard, section.Panel, .dashboard{
     margin-top: 10rem;
-    background-color:rgb(162, 175, 243)
+    background-color:#a2aff3
     
 }
 
@@ -38,10 +38,10 @@ section.dashboard, section.Panel, .dashboard{
 
 /* degradé navbar*/
 .navbar.navbar-expand-lg.bg-secondary{
-    background: rgb(238,174,202);
-    background: -moz-linear-gradient(40deg, rgba(238,174,202,1) 0%, rgba(152,148,233,1) 100%);
-    background: -webkit-linear-gradient(40deg, rgba(238,174,202,1) 0%, rgba(152,148,233,1) 100%);
-    background: linear-gradient(40deg, rgba(238,174,202,1) 0%, rgba(152,148,233,1) 100%);
+    background: #eeaeca;
+    background: -moz-linear-gradient(40deg, #eeaeca 0%, #9894e9 100%);
+    background: -webkit-linear-gradient(40deg, #eeaeca 0%, #9894e9 100%);
+    background: linear-gradient(40deg, #eeaeca 0%, #9894e9 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#9894e9",GradientType=1);
 }
 
